@@ -1,0 +1,97 @@
+/*FUENTES*/
+@font-face {
+    font-family: 'blackdimitri';
+    src: url('Fonts/blackdimitri.woff2') format('woff2'),
+         url('Fonts/blackdimitri.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'whitedimitri';
+    src: url('Fonts/whitedimitri.woff2') format('woff2'),
+         url('Fonts/whitedimitri.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#logo
+{
+    width: 100px;
+}
+header
+{
+    nav{
+        div
+        {
+            ul {
+                font-size: 1.5rem;
+                text-align: center;
+            }
+        }
+    }
+}
+footer
+{
+    bottom: 0;
+    left: 0;
+    position: fixed; 
+    width: 100%;
+    background: #000000da;
+    .footer
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div {
+            p{ 
+                padding: 10px;
+                color: white;
+                text-align: center;
+            }
+        }
+    
+    }
+    .socialmedia
+    {   
+        
+        flex-wrap: wrap;        
+        ul
+        {
+            li{
+                list-style-type: none;
+                display: inline;
+                padding-top: 30px;
+                padding-right: 10px;
+                padding-left: 10px;
+                a{
+                    img
+                    {
+                        width: 30px;
+                        -webkit-transition: -webkit-transform .8s ease-in-out;
+                        transition:         transform .8s ease-in-out;
+                    }
+                    img:hover {
+                        -webkit-transform: rotate(360deg);
+                                transform: rotate(360deg);
+                      }
+                }
+            }
+        }
+    }
+}
+
+body 
+{
+    .background
+     {  
+         img
+            {
+                width: 100%;
+                height: auto;
+            }
+    }
+    h1
+    {
+        font-family: 'whitedimitri';
+        text-align: center;
+    } 
+}
